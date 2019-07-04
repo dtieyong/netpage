@@ -1,0 +1,557 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title> 搜索导航工具专题</title>
+    <link rel="stylesheet" href="./css/a.css">
+    </style>
+    <link rel="stylesheet" href="./css/a_p.css">
+    </style>
+    <link rel="stylesheet" href="./css/b.css">
+    </style>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        table,
+        p {
+            margin-left: 25px;
+        }
+
+        td {
+            padding-bottom: 15px;
+            vertical-align: top;
+        }
+
+        td:first-child {
+            padding-right: 15px;
+        }
+
+        .section:nth-child(even) {
+            background-color: #fff;
+        }
+
+        .section {
+            border: none;
+            padding: 20px 40px;
+        }
+
+        .section>* {
+            max-width: 800px;
+        }
+    </style>
+</head>
+
+<body style="background-color: #f5f7f9;">
+    <div id="user_fav_area"> <div class="myweb"> <a class="myweb_title_overflow" style="" title="搜索引擎">搜索引擎</a>
+            <div class="myweb_content">
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.baidu.com"></b><a
+                        href="https://www.baidu.com/s?wd=%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E" target="_blank"
+                        class="myweb_site_name_align" title="搜索引擎_百度搜索" style="font-weight: bold;">百度搜索</a><i
+                        title="最近新增" class="myweb_site_name_part_new">NEW</i></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.sogou.com"></b><a
+                        href="https://www.sogou.com/web?query=%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E" target="_blank"
+                        class="myweb_site_name_align" title="搜索引擎 - 搜狗搜索" style="font-weight: bold;">搜狗搜索</a><i
+                        title="最近新增" class="myweb_site_name_part_new">NEW</i></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.so.com"></b><a
+                        href="https://www.so.com/s?q=%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E" target="_blank"
+                        class="myweb_site_name_align" title="搜索引擎_360搜索" style="font-weight: bold;">360搜索</a><i
+                        title="最近新增" class="myweb_site_name_part_new">NEW</i></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=search.chongbuluo.com"></b><a
+                        href="https://search.chongbuluo.com/" target="_blank" class="myweb_site_name_align"
+                        title="快搜 - 搜索快人一步 - Google" style="font-weight: bold;">快搜</a><i title="最近新增"
+                        class="myweb_site_name_part_new">NEW</i></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=cn.bing.com"></b><a
+                        href="https://cn.bing.com/search?q=%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E" target="_blank"
+                        class="myweb_site_name_align" title="搜索引擎 - 国际版 Bing" style="font-weight: bold;">必应搜索</a><i
+                        title="最近新增" class="myweb_site_name_part_new">NEW</i></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.google.com"></b><a
+                        href="https://www.google.com/search?q=%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E&amp;newwindow=0"
+                        target="_blank" class="myweb_site_name_align" title="搜索引擎 - Google Search"
+                        style="font-weight: bold;">Google Search</a><i title="最近新增"
+                        class="myweb_site_name_part_new">NEW</i></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=m.sm.cn"></b><a href="https://m.sm.cn/"
+                        target="_blank" class="myweb_site_name_align"
+                        title="神马是全球第一款完全基于移动互联网的搜索引擎。神马为移动而生，专注于移动搜索用户刚需满足和痛点解决，致力于创造有用、有趣的全新移动搜索体验。"
+                        style="font-weight: bold;">神马搜索</a><i title="最近新增" class="myweb_site_name_part_new">NEW</i>
+                </div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=m.sm.cn"></b><a href="https://m.sm.cn/"
+                        target="_blank" class="myweb_site_name_align"
+                        title="神马是全球第一款完全基于移动互联网的搜索引擎。神马为移动而生，专注于移动搜索用户刚需满足和痛点解决，致力于创造有用、有趣的全新移动搜索体验。"
+                        style="font-weight: bold;">神马搜索</a><i title="最近新增" class="myweb_site_name_part_new">NEW</i>
+                </div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=zhihu.sogou.com"></b><a
+                        href="https://zhihu.sogou.com/" target="_blank" class="myweb_site_name_align" title="搜狗知乎搜索"
+                        style="font-weight: bold;">知乎搜索</a><i title="最近新增" class="myweb_site_name_part_new">NEW</i>
+                </div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=weixin.sogou.com"></b><a
+                        href="https://weixin.sogou.com/" target="_blank" class="myweb_site_name_align"
+                        title="微信公众号，精彩内容独家收录，一搜即达" style="font-weight: bold;">搜狗微信搜索</a><i title="最近新增"
+                        class="myweb_site_name_part_new">NEW</i></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.baidu.com"></b><a
+                        href="https://www.baidu.com/gaoji/advanced.html" target="_blank" class="myweb_site_name_align"
+                        title="百度高级搜索" style="font-weight: bold;">百度高级搜索</a><i title="最近新增"
+                        class="myweb_site_name_part_new">NEW</i></div>
+            </div>
+        </div>
+        <div class="myweb"> <a class="myweb_title_overflow" style="" title="">百度导航</a>
+            <div class="myweb_content">
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.baidu.com"></b><a
+                        href="https://www.baidu.com/more/" target="_blank" class="myweb_site_name_align" title="百度产品大全"
+                        style="font-weight: bold;">百度产品大全</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=ww.hao123.com"></b><a
+                        href="http://ww.hao123.com/" target="_blank" class="myweb_site_name_align"
+                        title="hao123是汇集全网优质网址及资源的中文上网导航。及时收录影视、音乐、小说、游戏等分类的网址和内容，让您的网络生活更简单精彩。上网，从hao123开始。"
+                        style="font-weight: bold;">hao123</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=site.baidu.com"></b><a
+                        href="http://site.baidu.com/" target="_blank" class="myweb_site_name_align"
+                        title="百度网址大全 -- 简单可依赖的上网导航" style="font-weight: bold;">百度网址大全</a></div>
+            </div><span title="有关百度网址与产品导航" class="myweb_title_remark_single">有关百度网址与产品导航</span>
+        </div>
+        <div class="myweb"> <a class="myweb_title_overflow" style="" title="">传统网址导航</a>
+            <div class="myweb_content">
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=site.baidu.com"></b><a
+                        href="http://site.baidu.com/" target="_blank" class="myweb_site_name_align"
+                        title="百度网址大全 -- 简单可依赖的上网导航" style="font-weight: bold;">百度网址大全</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=123.sogou.com"></b><a
+                        href="https://123.sogou.com/" target="_blank" class="myweb_site_name_align"
+                        title="123.sogou.com网址导航——专业权威的上网导航。包含音乐、视频、小说、游戏、财经等上百个分类的优秀站点，提供简单便捷的网上导航服务，是中国网民非常喜欢的上网主页。"
+                        style="font-weight: bold;">搜狗网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.2345.com"></b><a
+                        href="https://www.2345.com/?39291" target="_blank" class="myweb_site_name_align"
+                        title="2345.com热门网址导航站网罗精彩实用网址，如音乐、小说、NBA、财经、购物、视频、软件及热门游戏网址大全等，二三四五网址导航提供了多种搜索引擎入口、实用查询、天气预报、个性定制等实用功能，帮助广大网友畅游网络更轻松。"
+                        style="font-weight: bold;">2345网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.114.com.cn"></b><a
+                        href="http://www.114.com.cn/" target="_blank" class="myweb_site_name_align"
+                        title="114网址导航官网，中国最大的绿色网上导航，上网首选114。专业精选并为您提供各类网址，网址导航、个性导航、网络收藏夹、团购导航、在线音乐、新闻、城市导航、实用工具、股票彩票、便签、记事本等实用功能"
+                        style="font-weight: bold;">www.114.com.cn</a></div>
+            </div><span title="比较传统网址导航如hao123等" class="myweb_title_remark_single">比较传统网址导航如hao123等</span>
+        </div>
+        <div class="myweb"> <a class="myweb_title_overflow" style="" title="">导航网站</a>
+            <div class="myweb_content">
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.chaidu.com"></b><a
+                        href="https://www.chaidu.com/" target="_blank" class="myweb_site_name_align"
+                        title="柴都导航汇集全网优质网址及资源。包含小说、音乐、影视、游戏、购物等分类的网址和内容，提供最简单便捷的网址导航服务，深受网民欢迎和喜爱。柴都导航，您值得拥有的上网主页！"
+                        style="font-weight: bold;">柴都导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=ilxdh.com"></b><a href="http://ilxdh.com/"
+                        target="_blank" class="myweb_site_name_align" title="龙轩导航提供最快捷的资源平台，让你迅速找到想要的资源，准确又方便快捷"
+                        style="font-weight: bold;">龙轩导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.24kdh.com"></b><a
+                        href="https://www.24kdh.com/" target="_blank" class="myweb_site_name_align"
+                        title="网址导航_网盘搜索_免费资源_24k导航_简单_高效_简洁" style="font-weight: bold;">24k导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.199it.com"></b><a
+                        href="http://hao.199it.com/" target="_blank" class="myweb_site_name_align"
+                        title="大数据导航，以大数据产业为主，大数据工具为辅，给用户提供一个更加快速找到大数据相关的工具平台。" style="font-weight: bold;">大数据导航</a>
+                </div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=webjike.com"></b><a href="https://webjike.com/"
+                        target="_blank" class="myweb_site_name_align"
+                        title="小呆导航是一个可自定义的简洁多领域网址导航，收录了前端开发、设计师、影视后期、日常办公等领域优质网站，为广大用户提供高效率的上网导航服务。"
+                        style="font-weight: bold;">小呆导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.20z.com"></b><a href="http://www.20z.com/"
+                        target="_blank" class="myweb_site_name_align"
+                        title="20Z网址导航汇集上网实用的名站网址，收录分类包括新闻、音乐、视频、小说、游戏等优秀网站，与多种搜索引擎、手写输入法完美结合，提供即便捷又实用的网址导航，上网冲浪从20z网址大全开始。"
+                        style="font-weight: bold;">20Z网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=webjike.com"></b><a
+                        href="https://webjike.com/web.html#row-7" target="_blank" class="myweb_site_name_align"
+                        title="前端导航 - 内容最全的前端开发网址导航" style="font-weight: bold;">前端导航</a><i title="最近新增"
+                        class="myweb_site_name_part_new">NEW</i></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.xiaolvji.com"></b><a
+                        href="http://www.xiaolvji.com/u/yingshiziyuan" target="_blank" class="myweb_site_name_align"
+                        title="影视资源导航" style="font-weight: bold;">影视资源导航</a><i title="最近新增"
+                        class="myweb_site_name_part_new">NEW</i></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.dragon-guide.net"></b><a
+                        href="http://www.dragon-guide.net/" target="_blank" class="myweb_site_name_align"
+                        title="龙之向导--外贸经理人的上网主页" style="font-weight: bold;">龙之向导</a><i title="最近新增"
+                        class="myweb_site_name_part_new">NEW</i></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.lian81.com"></b><a
+                        href="http://www.lian81.com/index-of-index/" target="_blank" class="myweb_site_name_align"
+                        title="lianjie7891的导航网收录 | 超链网" style="font-weight: bold;">lianjie7891的导航</a><i title="最近新增"
+                        class="myweb_site_name_part_new">NEW</i></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.egouz.com"></b><a
+                        href="https://www.egouz.com/" target="_blank" class="myweb_site_name_align"
+                        title="国外网站推荐-分享互联网-外国网站大全" style="font-weight: bold;">国外网站推荐</a><i title="最近新增"
+                        class="myweb_site_name_part_new">NEW</i></div>
+            </div><span title="其他各种导航网站" class="myweb_title_remark_double">其他各种导航网站</span>
+        </div>
+        <div class="myweb"> <a class="myweb_title_overflow" style="" title="分专业导航">分专业导航</a>
+            <div class="myweb_content">
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.meddir.cn"></b><a
+                        href="http://www.meddir.cn/" target="_blank" class="myweb_site_name_align"
+                        title="医学导航(Meddir.cn) – 最全最专业的医学网址导航网站" style="font-weight: bold;">医学导航(Meddir.cn)</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.dragon-guide.net"></b><a
+                        href="http://www.dragon-guide.net/" target="_blank" class="myweb_site_name_align"
+                        title="龙之向导,外贸网址之家:专业收录世界各个国家的外贸B2B网站,国际商业黄页等各种优秀的外贸网站及电子商务平台,提供简单便捷的外贸导航服务,是数千万外贸人的学习、开拓国际客户的外贸网.外贸之旅,从龙之向导开始."
+                        style="font-weight: bold;">外贸导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.qxsxw.com"></b><a
+                        href="http://www.qxsxw.com/sxwzdh/" target="_blank" class="myweb_site_name_align"
+                        title="数学网站导航,数学网站，数学论坛，数学教师博客。" style="font-weight: bold;">数学网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=daohang.esnai.com"></b><a
+                        href="http://daohang.esnai.com/" target="_blank" class="myweb_site_name_align"
+                        title="会计审计人员查询各种会计凭证，税务指南，各省税务局网站和税务局咨询电话，报考会计师证书，申报会计师和高级会计师，招聘会计人员和找财务会计工作的上网导航"
+                        style="font-weight: bold;">会计网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.law-lib.com"></b><a
+                        href="http://www.law-lib.com/lawseek/" target="_blank" class="myweb_site_name_align"
+                        title="法律网站导航" style="font-weight: bold;">法律网站导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.dioenglish.com"></b><a
+                        href="http://www.dioenglish.com/diolinks/" target="_blank" class="myweb_site_name_align"
+                        title="中国最大的英语网址导航, 英语学习网站大全!" style="font-weight: bold;">英语网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=123.sogou.com"></b><a
+                        href="https://123.sogou.com/shwz/meishi.html" target="_blank" class="myweb_site_name_align"
+                        title="饮食网址,家常菜视频,川菜精选,粤菜精选,鲁菜精选,湘菜精选,浙菜精选,京菜精选；123.sogou.com网址导航——最专业权威的上网导航。包含音乐、视频、小说、游戏、财经等上百个分类的优秀站点，提供最简单便捷的网上导航服务，是最受网民欢迎的上网主页。"
+                        style="font-weight: bold;">美食</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=edu123.eol.cn"></b><a
+                        href="http://edu123.eol.cn/" target="_blank" class="myweb_site_name_align"
+                        title="edu123教育导航是最专业的网址导航，汇集最优秀的教育网站及资源。及时收录学前，初中，高中，中考，高考，留学，就业，自考，考研，外语，资格考试，教师招聘，公务员，艺术考试，商学院，成人高考，在职硕士等分类的网址和内容，为您提供最优质的教育资源"
+                        style="font-weight: bold;">教育导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.cn"></b><a
+                        href="http://hao.360.cn/sub/caijing_website_nav.html" target="_blank"
+                        class="myweb_site_name_align"
+                        title="360导航--新一代安全上网导航，为用户提供门户、新闻、视频、游戏、小说、彩票等各种分类的优秀内容和网站入口，提供简单便捷的上网导航服务。安全上网，从360导航开始。"
+                        style="font-weight: bold;">财经网址_360导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=123.sogou.com"></b><a
+                        href="https://123.sogou.com/shwz/gouwu.html" target="_blank" class="myweb_site_name_align"
+                        title="由搜狗网址导航挑选收录的购物和商城站点，" style="font-weight: bold;">购物导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.china.ccoo.cn"></b><a
+                        href="http://www.china.ccoo.cn/" target="_blank" class="myweb_site_name_align"
+                        title="地方门户网站导航大全,为您提供河北、山东、吉林、辽宁、黑龙江、湖北、湖南、浙江、福建、甘肃、广东等地方门户网站信息，聚合城市中国各地方门户网站。"
+                        style="font-weight: bold;">地方门户网站大全</a></div>
+            </div>
+        </div>
+        <div class="myweb"> <a class="myweb_title_overflow" style="" title="购食专业导航">购食专业导航</a>
+            <div class="myweb_content">
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=123.sogou.com"></b><a
+                        href="https://123.sogou.com/shwz/gouwu.html" target="_blank" class="myweb_site_name_align"
+                        title="由搜狗网址导航挑选收录的购物和商城站点，" style="font-weight: bold;">购物导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.265.com"></b><a
+                        href="http://www.265.com/Wangshang_Gouwu/#wp_3tpsssw6hfmk" target="_blank"
+                        class="myweb_site_name_align" title="网上购物" style="font-weight: bold;">购物 - 265上网导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.02516.com"></b><a
+                        href="http://www.02516.com/gouwu/" target="_blank" class="myweb_site_name_align"
+                        title="我要乐网址导航：实用网址大全，您的上网导航助手。精心收集各类优质网站网址信息，提供天气查询、快递查询、机票查询、违章查询等便民生活实用查询工具网址，安全便捷的网上导航服务，已被众多网友设为上网主页。网址之家，首选我要乐网址大全。"
+                        style="font-weight: bold;">我要乐网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.smzdm.com"></b><a
+                        href="https://www.smzdm.com/mall/" target="_blank" class="myweb_site_name_align"
+                        title="什么值得买网购网站导航频道，根据购物网站排名，为您精选值得买购物导航网站，是您放心的购物导航网站。" style="font-weight: bold;">网购网站导航</a>
+                </div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=life.hao123.com"></b><a
+                        href="http://life.hao123.com/menu" target="_blank" class="myweb_site_name_align"
+                        title="hao123美食导航" style="font-weight: bold;">hao123美食导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=123.sogou.com"></b><a
+                        href="https://123.sogou.com/shwz/meishi.html" target="_blank" class="myweb_site_name_align"
+                        title="饮食网址,家常菜视频,川菜精选,粤菜精选,鲁菜精选,湘菜精选,浙菜精选,京菜精选；123.sogou.com网址导航——最专业权威的上网导航。包含音乐、视频、小说、游戏、财经等上百个分类的优秀站点，提供最简单便捷的网上导航服务，是最受网民欢迎的上网主页。"
+                        style="font-weight: bold;">美食</a></div>
+            </div>
+        </div>
+        <div class="myweb"> <a class="myweb_title_overflow" style="" title="社交网站导航">社交网站导航</a>
+            <div class="myweb_content">
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/shequ_website_nav.html" target="_blank"
+                        class="myweb_site_name_align"
+                        title="360导航--新一代安全上网导航，为用户提供门户、新闻、视频、游戏、小说、彩票等各种分类的优秀内容和网站入口，提供简单便捷的上网导航服务。安全上网，从360导航开始。"
+                        style="font-weight: bold;">360社区网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.cn"></b><a
+                        href="http://hao.360.cn/sub/jiaoyou_website_nav.html" target="_blank"
+                        class="myweb_site_name_align"
+                        title="360导航--新一代安全上网导航，为用户提供门户、新闻、视频、游戏、小说、彩票等各种分类的优秀内容和网站入口，提供简单便捷的上网导航服务。安全上网，从360导航开始。"
+                        style="font-weight: bold;">360交友网址导航</a></div>
+            </div>
+        </div>
+        <div class="myweb"> <a class="myweb_title_overflow" style="" title="娱乐专业导航">娱乐专业导航</a>
+            <div class="myweb_content">
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/xiaoshuo_website_nav.html" target="_blank"
+                        class="myweb_site_name_align" title="360小说网址导航" style="font-weight: bold;">360小说网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/yinyue_website_nav.html" target="_blank"
+                        class="myweb_site_name_align" title="360音乐网址导航" style="font-weight: bold;">360音乐网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/quyi_website_nav.html" target="_blank"
+                        class="myweb_site_name_align" title="360曲艺网址导航" style="font-weight: bold;">360曲艺网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/chongwu_website_nav.html" target="_blank"
+                        class="myweb_site_name_align" title="360宠物网址导航" style="font-weight: bold;">360宠物网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/aihao_website_nav.html" target="_blank"
+                        class="myweb_site_name_align" title="360爱好网址导航" style="font-weight: bold;">360爱好网址导航</a></div>
+            </div>
+        </div>
+        <div class="myweb"> <a class="myweb_title_overflow" style="" title="教育专业导航">教育专业导航</a>
+            <div class="myweb_content">
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=edu.360.cn"></b><a
+                        href="http://edu.360.cn/site/jiaoyu/" target="_blank" class="myweb_site_name_align"
+                        title="360教育是360导航旗下教育网站_为您提供互联网教育名站查询和导航，提供英语、少儿教育、中等教育、高等教育、职业技能不同层次的教育信息和课程推荐，为您打造互联网简单、便捷的教育信息查询、课程对比、学习资源等在内的一站式服务"
+                        style="font-weight: bold;">360教育网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=edu123.eol.cn"></b><a
+                        href="http://edu123.eol.cn/" target="_blank" class="myweb_site_name_align"
+                        title="edu123教育导航是最专业的网址导航，汇集最优秀的教育网站及资源。及时收录学前，初中，高中，中考，高考，留学，就业，自考，考研，外语，资格考试，教师招聘，公务员，艺术考试，商学院，成人高考，在职硕士等分类的网址和内容，为您提供最优质的教育资源"
+                        style="font-weight: bold;">教育导航</a></div>
+            </div>
+        </div>
+        <div class="myweb"> <a class="myweb_title_overflow" style="" title="医疗专业导航">医疗专业导航</a>
+            <div class="myweb_content">
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.meddir.cn"></b><a
+                        href="http://www.meddir.cn/" target="_blank" class="myweb_site_name_align"
+                        title="医学导航(Meddir.cn) – 最全最专业的医学网址导航网站" style="font-weight: bold;">医学导航(Meddir.cn)</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.zhzyw.com"></b><a
+                        href="https://www.zhzyw.com/wzdh.html" target="_blank" class="myweb_site_name_align"
+                        title="网站导航_中医中药网" style="font-weight: bold;">中医中药网</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=zhongyibaodian.com"></b><a
+                        href="http://zhongyibaodian.com/sitemap/" target="_blank" class="myweb_site_name_align"
+                        title="中医宝典大全_中医网站地图_中医知识导航【中医宝典】" style="font-weight: bold;">中医宝典大全</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.3456.cc"></b><a
+                        href="http://www.3456.cc/Yiliao_Baojian/index.html" target="_blank"
+                        class="myweb_site_name_align" title="健康网址大全_收集最大最全的健康网址。" style="font-weight: bold;">健康网址大全</a>
+                </div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/jiankang_website_nav.html" target="_blank"
+                        class="myweb_site_name_align"
+                        title="360导航--新一代安全上网导航，为用户提供门户、新闻、视频、游戏、小说、彩票等各种分类的优秀内容和网站入口，提供简单便捷的上网导航服务。安全上网，从360导航开始。"
+                        style="font-weight: bold;">360健康网址导航</a></div>
+            </div>
+        </div>
+        <div class="myweb"> <a class="myweb_title_overflow" style="" title="财经专业导航">财经专业导航</a>
+            <div class="myweb_content">
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.cn"></b><a
+                        href="http://hao.360.cn/sub/caijing_website_nav.html" target="_blank"
+                        class="myweb_site_name_align"
+                        title="360导航--新一代安全上网导航，为用户提供门户、新闻、视频、游戏、小说、彩票等各种分类的优秀内容和网站入口，提供简单便捷的上网导航服务。安全上网，从360导航开始。"
+                        style="font-weight: bold;">财经网址_360导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/yinhang_website_nav.html" target="_blank"
+                        class="myweb_site_name_align" title="360银行网址导航" style="font-weight: bold;">360银行网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=daohang.esnai.com"></b><a
+                        href="http://daohang.esnai.com/" target="_blank" class="myweb_site_name_align"
+                        title="会计审计人员查询各种会计凭证，税务指南，各省税务局网站和税务局咨询电话，报考会计师证书，申报会计师和高级会计师，招聘会计人员和找财务会计工作的上网导航"
+                        style="font-weight: bold;">会计网址导航</a></div>
+            </div>
+        </div>
+        <div class="myweb"> <a class="myweb_title_overflow" style="" title="">法律专业导航</a>
+            <div class="myweb_content">
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.law-lib.com"></b><a
+                        href="http://www.law-lib.com/lawseek/" target="_blank" class="myweb_site_name_align"
+                        title="法律网站导航" style="font-weight: bold;">法律网站导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/falv_website_nav.html" target="_blank"
+                        class="myweb_site_name_align" title="360法律网址导航" style="font-weight: bold;">360法律网址导航</a></div>
+            </div><span title="法律网址导航" class="myweb_title_remark_single">法律网址导航</span>
+        </div>
+        <div class="myweb"> <a class="myweb_title_overflow" style="" title="媒体专业导航">媒体专业导航</a>
+            <div class="myweb_content">
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.cn"></b><a
+                        href="http://hao.360.cn/sub/news_website_nav.html" target="_blank" class="myweb_site_name_align"
+                        title="360新闻网址导航" style="font-weight: bold;">360新闻网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/baozhi_website_nav.html" target="_blank"
+                        class="myweb_site_name_align" title="360报纸网址导航" style="font-weight: bold;">360报纸网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/zhibo_website_nav.html" target="_blank"
+                        class="myweb_site_name_align" title="360直播网址导航" style="font-weight: bold;">360直播网址导航</a></div>
+            </div>
+        </div>
+        <div class="myweb"> <a class="myweb_title_overflow" style="" title="体育专业导航">体育专业导航</a>
+            <div class="myweb_content">
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/tiyu_website_nav.html" target="_blank"
+                        class="myweb_site_name_align" title="360体育网址导航" style="font-weight: bold;">360体育网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/lanqiu_website_nav.html" target="_blank"
+                        class="myweb_site_name_align" title="360篮球网址导航" style="font-weight: bold;">360篮球网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/zuqiu_website_nav.html" target="_blank"
+                        class="myweb_site_name_align" title="360足球网址导航" style="font-weight: bold;">360足球网址导航</a></div>
+            </div>
+        </div>
+        <div class="myweb"> <a class="myweb_title_overflow" style="" title="硬件专业导航">硬件专业导航</a>
+            <div class="myweb_content">
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/diannao_website_nav.html" target="_blank"
+                        class="myweb_site_name_align" title="360电脑网址导航" style="font-weight: bold;">360电脑网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/shouji_website_nav.html" target="_blank"
+                        class="myweb_site_name_align" title="360手机网址导航" style="font-weight: bold;">360手机网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/qiche_website_nav.html" target="_blank"
+                        class="myweb_site_name_align" title="360汽车网址导航" style="font-weight: bold;">360汽车网址导航</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/fangchan_website_nav.html" target="_blank"
+                        class="myweb_site_name_align" title="360房产网址导航" style="font-weight: bold;">360房产网址导航</a></div>
+            </div>
+        </div>
+        <div class="myweb"> <a class="myweb_title_overflow" style="" title="">门户专业导航</a>
+            <div class="myweb_content">
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=www.china.ccoo.cn"></b><a
+                        href="http://www.china.ccoo.cn/" target="_blank" class="myweb_site_name_align"
+                        title="地方门户网站导航大全,为您提供河北、山东、吉林、辽宁、黑龙江、湖北、湖南、浙江、福建、甘肃、广东等地方门户网站信息，聚合城市中国各地方门户网站。"
+                        style="font-weight: bold;">地方门户网站大全</a></div>
+                <div class="myweb_site_align" style=""> <b class="myweb_site_img_area" style="visibility: hidden;"><img
+                            class="myweb_site_img_content" style=""
+                            src="http://www.google.cn/s2/favicons?domain=hao.360.com"></b><a
+                        href="http://hao.360.com/sub/zhengfu_website_nav.html" target="_blank"
+                        class="myweb_site_name_align" title="360政府网址导航" style="font-weight: bold;">360政府网址导航</a></div>
+            </div><span title="门户网站专业导航" class="myweb_title_remark_single">门户网站专业导航</span>
+        </div>
+    </div>
+</body>
+
+</html>
